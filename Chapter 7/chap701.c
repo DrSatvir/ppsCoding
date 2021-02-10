@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-struct Employee
+struct Employee // Global Structure
 {
   int empNo;        // 4-Byte
   char empName[20]; // 1-Byte=20Bytes
@@ -13,8 +13,8 @@ int main(int argc, char const *argv[])
   // Assigning/Initializing values collectively
   struct Employee emp = {1001, "Satvir Singh", 50000.0};
 
-  printf("\nSize of Structure = %d", sizeof(emp));
-  printf("\nSize of Structure = %d", sizeof(struct Employee));
+  printf("\nSize of Structure = %dBtyes", sizeof(emp));
+  printf("\nSize of Structure = %dBtyes", sizeof(struct Employee));
 
   emp.empSalary = 60000.0;
 

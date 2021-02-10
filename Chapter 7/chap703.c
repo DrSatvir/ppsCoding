@@ -16,7 +16,7 @@ struct Rectangle
 void main()
 {
   system("cls");
-  //  struct Rectangle myRec = {20, 10};
-  Rectangle myRec = {20, 10};
-  printf("Length = %d, Width = %d", myRec.Length, myRec.Width);
+  //struct Rectangle myRec = {20, 10};
+  Rectangle myRect = {20, 10};
+  printf("Length = %d, Width = %d", myRect.Length, myRect.Width);
 }
