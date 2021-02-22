@@ -1,3 +1,12 @@
+/*
+  Name    : Satvir Singh
+  Roll No.: 123456
+  Email   : DrSatvir.in@gmail.com
+  Mobile  : 8427680001
+
+  AIM 6: Working with Structure, Arrays and Pointers
+*/
+
 #include <stdio.h>
 
 typedef struct
@@ -44,3 +53,13 @@ void main()
   Layout *layoutStruct = &layout;
   printf("\nStruct Pointer = %d", layoutStruct->rect.Length);
 }
+
+/* RESULT 
+  Rectangle of size 20x30 is located at x=50 an50 and y=50 for Drawing Purpose
+  (0 0)
+  (15 0)
+  (15 15)
+  (0 15)
+  (0 0)
+  Struct Pointer = 20
+*/
